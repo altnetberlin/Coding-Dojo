@@ -1,0 +1,1 @@
+Ziel des Dojos waren: 2 Teams arbeiten an derselben Kata (Minesweeper) und vergleichen die Ergebnisse

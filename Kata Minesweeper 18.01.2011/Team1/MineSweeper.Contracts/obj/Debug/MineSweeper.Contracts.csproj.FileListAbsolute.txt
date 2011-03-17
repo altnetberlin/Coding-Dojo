@@ -1,0 +1,5 @@
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Contracts\bin\Debug\MineSweeper.Contracts.dll
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Contracts\bin\Debug\MineSweeper.Contracts.pdb
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Contracts\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Contracts\obj\Debug\MineSweeper.Contracts.dll
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Contracts\obj\Debug\MineSweeper.Contracts.pdb
