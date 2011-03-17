@@ -1,0 +1,1 @@
+Ziel des Dojos waren: Austauschbarkeit von Komponenten und Paralleles Arbeiten in Feature-Teams    
