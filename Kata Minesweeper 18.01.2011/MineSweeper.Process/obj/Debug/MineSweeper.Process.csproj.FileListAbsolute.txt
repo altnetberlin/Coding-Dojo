@@ -1,0 +1,5 @@
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Process\bin\Debug\MineSweeper.Process.dll
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Process\bin\Debug\MineSweeper.Process.pdb
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Process\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Process\obj\Debug\MineSweeper.Process.dll
+C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Process\obj\Debug\MineSweeper.Process.pdb

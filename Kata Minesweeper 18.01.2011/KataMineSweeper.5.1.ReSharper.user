@@ -1,0 +1,120 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Beispiel2.txt" caret="0" fromTop="0" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Beispiel1.txt" caret="0" fromTop="0" />
+      <File id="0B3B487A-43D2-4701-9AFD-F5A4E27636C6/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="EDF9339B-DE26-4C01-9FBE-F6731E94784F/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="2603" fromTop="1" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="3419" fromTop="18" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="3391" fromTop="5" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="3122" fromTop="3" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="2966" fromTop="21" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="2795" fromTop="24" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="148" fromTop="5" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="2203" fromTop="15" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="360" fromTop="14" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="662" fromTop="26" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="966" fromTop="37" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="835" fromTop="21" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="488" fromTop="9" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="1266" fromTop="26" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="1579" fromTop="32" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="247" fromTop="13" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="2035" fromTop="19" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="1728" fromTop="11" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="3263" fromTop="25" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="3172" fromTop="21" />
+      <File id="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2/f:Class1.cs" caret="2603" fromTop="1" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="5" />
+      <Item value="void" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="umwandler" priority="0" />
+      <Item value="Enumerable`0" priority="1" />
+      <Item value="class" priority="2" />
+      <Item value="where" priority="0" />
+      <Item value="Feld`0" priority="0" />
+      <Item value="IFeld`0" priority="7" />
+      <Item value="int" priority="1" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="FileStyleUriParser`0" priority="1" />
+      <Item value="IO" priority="0" />
+      <Item value="filename" priority="0" />
+      <Item value="foreach" priority="1" />
+      <Item value="new" priority="13" />
+      <Item value="Umwandler" priority="0" />
+      <Item value="IEnumerable" priority="4" />
+      <Item value="Array`0" priority="0" />
+      <Item value="char" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="c" priority="0" />
+      <Item value="Mine`0" priority="1" />
+      <Item value="LeerFeld`0" priority="6" />
+      <Item value="matrixZeile" priority="2" />
+      <Item value="GebeFeldTyp`0" priority="0" />
+      <Item value="List`0" priority="4" />
+      <Item value="return" priority="0" />
+      <Item value="matrix" priority="0" />
+      <Item value="felder" priority="1" />
+      <Item value="Spielmatrix`0" priority="1" />
+      <Item value="Spielmatrix" priority="1" />
+      <Item value="SetUp" priority="0" />
+      <Item value="Matrix1" priority="2" />
+      <Item value="ctor" priority="0" />
+      <Item value="Felder" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="for" priority="2" />
+      <Item value="spielmatrix" priority="1" />
+      <Item value="zeile" priority="0" />
+      <Item value="_testMatrix1" priority="1" />
+      <Item value="i" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="ReadAllLines`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineSweeper.Tests.Spielmatrix">
+      <Item value="Felder" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="AddRange`0" priority="0" />
+      <Item value="SequenceEqual`1" priority="2" />
+      <Item value="ForEach`0" priority="0" />
+      <Item value="Select`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
