@@ -1,5 +1,0 @@
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Domian\bin\Debug\MineSweeper.Domian.dll
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Domian\bin\Debug\MineSweeper.Domian.pdb
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Domian\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Domian\obj\Debug\MineSweeper.Domian.dll
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Domian\obj\Debug\MineSweeper.Domian.pdb

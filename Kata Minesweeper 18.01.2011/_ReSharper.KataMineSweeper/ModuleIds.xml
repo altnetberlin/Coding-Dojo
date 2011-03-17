@@ -1,7 +1,0 @@
-<Modules>
-  <Module PersistentId="7EDE53E4-632E-4376-8263-E4854C60DC4D" ModuleId="MineSweeper.Console" />
-  <Module PersistentId="0B3B487A-43D2-4701-9AFD-F5A4E27636C6" ModuleId="MineSweeper.Domian" />
-  <Module PersistentId="EDF9339B-DE26-4C01-9FBE-F6731E94784F" ModuleId="MineSweeper.Process" />
-  <Module PersistentId="453617D7-74D5-4A35-8C6D-BDF5A5D04CC7" ModuleId="MineSweeper.Contracts" />
-  <Module PersistentId="4F06FFF6-2E4B-4689-BDD9-5A7C56E645D2" ModuleId="MineSweeper.Tests" />
-</Modules>
