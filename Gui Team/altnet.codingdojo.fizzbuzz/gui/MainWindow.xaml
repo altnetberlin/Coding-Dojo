@@ -1,0 +1,19 @@
+﻿<Window x:Class="altnet.codingdojo.fizzbuzz.gui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:altnet.codingdojo.fizzbuzz.gui"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="243*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="267*" />
+        </Grid.RowDefinitions>
+        <TextBox Height="23" HorizontalAlignment="Left" Name="txtMaxValue" VerticalAlignment="Top" Width="428" />
+        <Button Content="Send" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="0" Name="btnSend" VerticalAlignment="Top" Width="75" Click="btnSend_Click" />
+        <ListBox Grid.Row="1" Height="288" Name="lbxResult" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+    </Grid>
+</Window>
