@@ -1,0 +1,97 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D14E7A6A-620D-41C6-B4D5-7C168B54F580/d:Properties/f:AssemblyInfo.cs" caret="1506" fromTop="37" />
+      <File id="D14E7A6A-620D-41C6-B4D5-7C168B54F580/f:FizzBuzzService.cs" caret="81" fromTop="3" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="1940" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="102" fromTop="4" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2165" fromTop="14" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2851" fromTop="24" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2355" fromTop="21" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2561" fromTop="28" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2851" fromTop="14" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="1716" fromTop="11" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="298" fromTop="4" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2851" fromTop="17" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2851" fromTop="13" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2571" fromTop="11" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="1713" fromTop="23" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2851" fromTop="15" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2854" fromTop="9" />
+      <File id="D14E7A6A-620D-41C6-B4D5-7C168B54F580/f:FizzBuzzService.cs" caret="158" fromTop="7" />
+      <File id="D14E7A6A-620D-41C6-B4D5-7C168B54F580/d:Properties/f:AssemblyInfo.cs" caret="103" fromTop="2" />
+      <File id="D14E7A6A-620D-41C6-B4D5-7C168B54F580/d:Properties/f:AssemblyInfo.cs" caret="1502" fromTop="36" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="2707" fromTop="15" />
+      <File id="D14E7A6A-620D-41C6-B4D5-7C168B54F580/f:FizzBuzzService.cs" caret="671" fromTop="24" />
+      <File id="4B81F6F9-E40A-433E-B233-20A7870B4356/f:FizzBuzzService.cs" caret="126" fromTop="5" />
+      <File id="D14E7A6A-620D-41C6-B4D5-7C168B54F580/f:FizzBuzzService.cs" caret="81" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="2" />
+      <Item value="NUnit" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="Should" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="result" priority="3" />
+      <Item value="if" priority="0" />
+      <Item value="i" priority="5" />
+      <Item value="IAsyncResult`0" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="public" priority="0" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="new" priority="1" />
+      <Item value="List`0" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="FizzBuzzService`0" priority="0" />
+      <Item value="expectedResult" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="maxValue" priority="0" />
+      <Item value="yield return" priority="0" />
+      <Item value="Translate`0" priority="0" />
+      <Item value="internal" priority="0" />
+      <Item value="assembly" priority="0" />
+      <Item value="InternalsVisibleTo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="That`0" priority="0" />
+      <Item value="AreEqual`0" priority="0" />
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Void">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.UInt32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FizzBuzzServiceTest.FizzBuzzService">
+      <Item value="GetFizzBuzzEnumBy`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="SequenceEqual`1" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
