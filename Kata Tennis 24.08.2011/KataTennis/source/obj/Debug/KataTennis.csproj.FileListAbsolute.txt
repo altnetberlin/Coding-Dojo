@@ -1,0 +1,12 @@
+C:\Users\mike.bild\Desktop\CodingDojo\CodingDojo\bin\Debug\KataTennis.dll
+C:\Users\mike.bild\Desktop\CodingDojo\CodingDojo\bin\Debug\KataTennis.pdb
+C:\Users\mike.bild\Desktop\CodingDojo\CodingDojo\bin\Debug\Machine.Specifications.dll
+C:\Users\mike.bild\Desktop\CodingDojo\CodingDojo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mike.bild\Desktop\CodingDojo\CodingDojo\obj\Debug\KataTennis.dll
+C:\Users\mike.bild\Desktop\CodingDojo\CodingDojo\obj\Debug\KataTennis.pdb
+C:\Users\mike.bild\Desktop\CodingDojo\source\bin\Debug\KataTennis.dll
+C:\Users\mike.bild\Desktop\CodingDojo\source\bin\Debug\KataTennis.pdb
+C:\Users\mike.bild\Desktop\CodingDojo\source\bin\Debug\Machine.Specifications.dll
+C:\Users\mike.bild\Desktop\CodingDojo\source\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mike.bild\Desktop\CodingDojo\source\obj\Debug\KataTennis.dll
+C:\Users\mike.bild\Desktop\CodingDojo\source\obj\Debug\KataTennis.pdb
