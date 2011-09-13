@@ -6,7 +6,7 @@ namespace KataTennis
 
     public class Game
     {
-        List<int> _scoreValues = new List<int>{ {0}, {15}, {30}, {40} };
+        List<int> _scoreValues = new List<int>{ {0}, {15}, {30}, {40}, {50} };
 
         public Game()
         {
@@ -27,30 +27,30 @@ namespace KataTennis
     }
 
 
-    [Subject(typeof(Game))]
-    public class when_create_a_new_tennis_game
+    public static class GameScoreExtensions
     {
-        Establish context = () =>
-            {
-                _game = new Game();
-            };
+        public static string HumanReadable(this GameScore This)
+        {
+            return "Player 1 won";
+        }
+    }
 
+    [Subject(typeof(Game))]
+    public class when_create_a_new_tennis_game : Given_In_Game
+    {
         Because of = () => _game.Start(new GameScore(0, 0));
 
         It should_player1_have_zero_points = () => _game.CurrentScore.PlayerScore1.ShouldEqual(0);
         It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
-        static Game _game;
     }
 
     [Subject(typeof (Game))]
-    public class When_GameScore_is_Zero_to_Zero_and_Player1_scores
+    public class When_GameScore_is_Zero_to_Zero_and_Player1_scores : Given_In_Game
     {
-        Establish context = () => { _game = new Game(); };
-
         Because of = () => { _game.Player1Scores(); };
 
         It should_player1_have_15_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(15); };
-        static Game _game;
+        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
     }
 
 
@@ -70,6 +70,7 @@ namespace KataTennis
         Because of = () => { _game.Player1Scores(); };
 
         It should_player1_have_30_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(30); };
+        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
     }
 
     [Subject(typeof(Game))]
@@ -80,6 +81,18 @@ namespace KataTennis
         Because of = () => { _game.Player1Scores(); };
 
         It should_player1_have_40_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(40); };
+        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
+    }
+
+    [Subject(typeof(Game))]
+    public class When_GameScore_is_40_0_and_Player1_scores : Given_In_Game
+    {
+        Establish context = () => { _game.Start(new GameScore(40, 0)); };
+
+        Because of = () => { _game.Player1Scores(); };
+
+        It should_player1_have_won_ = () => { _game.CurrentScore.HumanReadable().ShouldEqual("Player 1 won"); };
+        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
     }
 
     public class GameScore
