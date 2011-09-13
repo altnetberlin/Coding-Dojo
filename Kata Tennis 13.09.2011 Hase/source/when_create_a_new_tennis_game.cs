@@ -31,7 +31,9 @@ namespace KataTennis
     {
         public static string HumanReadable(this GameScore This)
         {
+            if (This.PlayerScore1 == 50)
             return "Player 1 won";
+            return string.Format("{0} - {1}", This.PlayerScore1, This.PlayerScore2);
         }
     }
 
@@ -40,8 +42,8 @@ namespace KataTennis
     {
         Because of = () => _game.Start(new GameScore(0, 0));
 
-        It should_player1_have_zero_points = () => _game.CurrentScore.PlayerScore1.ShouldEqual(0);
-        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
+
+        It should_player1_have_40_points_ = () => { _game.CurrentScore.HumanReadable().ShouldEqual("0 - 0"); };
     }
 
     [Subject(typeof (Game))]
@@ -49,8 +51,8 @@ namespace KataTennis
     {
         Because of = () => { _game.Player1Scores(); };
 
-        It should_player1_have_15_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(15); };
-        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
+
+        It should_player1_have_40_points_ = () => { _game.CurrentScore.HumanReadable().ShouldEqual("15 - 0"); };
     }
 
 
@@ -69,8 +71,8 @@ namespace KataTennis
 
         Because of = () => { _game.Player1Scores(); };
 
-        It should_player1_have_30_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(30); };
-        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
+
+        It should_player1_have_40_points_ = () => { _game.CurrentScore.HumanReadable().ShouldEqual("30 - 0"); };
     }
 
     [Subject(typeof(Game))]
@@ -80,8 +82,7 @@ namespace KataTennis
 
         Because of = () => { _game.Player1Scores(); };
 
-        It should_player1_have_40_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(40); };
-        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
+        It should_player1_have_40_points_ = () => { _game.CurrentScore.HumanReadable().ShouldEqual("40 - 0");};
     }
 
     [Subject(typeof(Game))]
@@ -92,7 +93,6 @@ namespace KataTennis
         Because of = () => { _game.Player1Scores(); };
 
         It should_player1_have_won_ = () => { _game.CurrentScore.HumanReadable().ShouldEqual("Player 1 won"); };
-        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
     }
 
     public class GameScore
