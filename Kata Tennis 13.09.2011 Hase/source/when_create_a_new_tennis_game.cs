@@ -1,10 +1,13 @@
-﻿using Machine.Specifications;
+﻿using System.Collections.Generic;
+using Machine.Specifications;
 
 namespace KataTennis
 {
 
     public class Game
     {
+        List<int> _scoreValues = new List<int>{ {0}, {15}, {30}, {40} };
+
         public Game()
         {
             CurrentScore = new GameScore(0,0);
@@ -18,7 +21,8 @@ namespace KataTennis
 
         public void Player1Scores()
         {
-            CurrentScore = new GameScore(CurrentScore.PlayerScore1+15, 0);
+            int value = _scoreValues[_scoreValues.IndexOf(CurrentScore.PlayerScore1) + 1];
+            CurrentScore = new GameScore(value, 0);
         }
     }
 
@@ -66,6 +70,16 @@ namespace KataTennis
         Because of = () => { _game.Player1Scores(); };
 
         It should_player1_have_30_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(30); };
+    }
+
+    [Subject(typeof(Game))]
+    public class When_GameScore_is_30_0_and_Player1_scores : Given_In_Game
+    {
+        Establish context = () => { _game.Start(new GameScore(30, 0)); };
+
+        Because of = () => { _game.Player1Scores(); };
+
+        It should_player1_have_40_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(40); };
     }
 
     public class GameScore
