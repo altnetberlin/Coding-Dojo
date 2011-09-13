@@ -5,6 +5,10 @@ namespace KataTennis
 
     public class Game
     {
+        public Game()
+        {
+            CurrentScore = new GameScore(0,0);
+        }
         public void Start(GameScore gameScore)
         {
             CurrentScore = gameScore;
@@ -14,7 +18,7 @@ namespace KataTennis
 
         public void Player1Scores()
         {
-           CurrentScore=new GameScore(15,0);
+            CurrentScore = new GameScore(CurrentScore.PlayerScore1+15, 0);
         }
     }
 
@@ -43,6 +47,25 @@ namespace KataTennis
 
         It should_player1_have_15_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(15); };
         static Game _game;
+    }
+
+
+    [Subject(typeof(Game))]
+    public class Given_In_Game
+    {
+        Establish context = () => { _game = new Game(); };
+        protected static Game _game;
+    }
+
+
+    [Subject(typeof(Game))]
+    public class When_GameScore_is_15_0_and_Player1_scores : Given_In_Game
+    {
+        Establish context = () => { _game.Start(new GameScore(15,0)); };
+
+        Because of = () => { _game.Player1Scores(); };
+
+        It should_player1_have_30_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(30); };
     }
 
     public class GameScore
