@@ -11,6 +11,11 @@ namespace KataTennis
         }
 
         public GameScore CurrentScore { get; private set; }
+
+        public void Player1Scores()
+        {
+           CurrentScore=new GameScore(15,0);
+        }
     }
 
 
@@ -24,7 +29,19 @@ namespace KataTennis
 
         Because of = () => _game.Start(new GameScore(0, 0));
 
-        It should_have_empty_game_score = () => _game.CurrentScore.PlayerScore1.ShouldEqual(0);
+        It should_player1_have_zero_points = () => _game.CurrentScore.PlayerScore1.ShouldEqual(0);
+        It should_player2_have_zero_points = () => _game.CurrentScore.PlayerScore2.ShouldEqual(0);
+        static Game _game;
+    }
+
+    [Subject(typeof (Game))]
+    public class When_GameScore_is_Zero_to_Zero_and_Player1_scores
+    {
+        Establish context = () => { _game = new Game(); };
+
+        Because of = () => { _game.Player1Scores(); };
+
+        It should_player1_have_15_points_ = () => { _game.CurrentScore.PlayerScore1.ShouldEqual(15); };
         static Game _game;
     }
 
