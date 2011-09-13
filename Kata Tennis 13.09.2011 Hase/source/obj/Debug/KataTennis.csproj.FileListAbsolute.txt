@@ -16,3 +16,9 @@ C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata Tennis 13.09.2011\source\bin\Debu
 C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata Tennis 13.09.2011\source\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata Tennis 13.09.2011\source\obj\Debug\KataTennis.dll
 C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata Tennis 13.09.2011\source\obj\Debug\KataTennis.pdb
+C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\bin\Debug\KataTennis.pdb
+C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\bin\Debug\Machine.Specifications.dll
+C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\obj\Debug\KataTennis.pdb
+C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\bin\Debug\KataTennis.exe
+C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\obj\Debug\KataTennis.exe
