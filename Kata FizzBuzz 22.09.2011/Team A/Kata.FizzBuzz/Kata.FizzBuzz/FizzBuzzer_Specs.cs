@@ -63,7 +63,7 @@ namespace Kata.FizzBuzz
 			result = FizzBuzzer.GetResult(31);
 
 		It should_return_1 = () =>
-			result.ShouldEqual("31");
+			result.ShouldEqual("Fizz");
 
 		static string result;
 	}
