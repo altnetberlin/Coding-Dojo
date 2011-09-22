@@ -74,40 +74,14 @@ namespace Tests
 
             Assert.AreEqual("FizzBuzz", result);
         }
-    }
 
-
-
-    public class FizzBuzzPrinter
-    {
-
-        const string Fizz = "Fizz";
-        const string Buzz = "Buzz";
-
-        public string Translate(int i)
+        [Test]
+        [TestCase(3, Result = "Fizz")]
+        [TestCase(6, Result = "Fizz")]
+        [TestCase(12, Result = "Fizz")]
+        public string When_Translate_is_called_with_multiple_of_3(int value)
         {
-            if (IsFizz(i) && IsBuzz(i))
-                return Fizz + Buzz;
-
-            if (IsFizz(i))
-            {
-                return Fizz;
-            }
-
-            if (IsBuzz(i))
-                return Buzz;
-
-            return i.ToString();
-        }
-
-        static bool IsBuzz(int i)
-        {
-            return (i % 5 == 0);
-        }
-
-        static bool IsFizz(int i)
-        {
-            return (i % 3 == 0);
+            return _sut.Translate(value);
         }
     }
 }
