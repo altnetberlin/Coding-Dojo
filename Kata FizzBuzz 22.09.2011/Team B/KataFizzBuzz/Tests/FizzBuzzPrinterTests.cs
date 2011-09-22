@@ -20,11 +20,19 @@ namespace Tests
         }
 
         [Test]
-        public void When_FizzBuzzPrinter_Is_called_with_1_it_returns_1()
+        public void When_Translate_Is_called_with_1_it_returns_1()
         {
             var result = _sut.Translate(1);
 
             Assert.AreEqual("1", result);
+        }
+
+        [Test]
+        public void When_Translate_Is_called_with_2_it_returns_2()
+        {
+            var result = _sut.Translate(2);
+
+            Assert.AreEqual("2", result);
         }
 
         [Test]
@@ -56,7 +64,7 @@ namespace Tests
         {
             var result = _sut.Translate(15);
 
-            Assert.AreEqual("FizzBuzz",result);
+            Assert.AreEqual("FizzBuzz", result);
         }
 
         [Test]
@@ -64,7 +72,7 @@ namespace Tests
         {
             var result = _sut.Translate(30);
 
-            Assert.AreEqual("FizzBuzz",result);
+            Assert.AreEqual("FizzBuzz", result);
         }
     }
 
@@ -72,18 +80,34 @@ namespace Tests
 
     public class FizzBuzzPrinter
     {
+
+        const string Fizz = "Fizz";
+        const string Buzz = "Buzz";
+
         public string Translate(int i)
         {
-            if (i % 3 == 0 && i % 5 == 0)
-                return "FizzBuzz";
+            if (IsFizz(i) && IsBuzz(i))
+                return Fizz + Buzz;
 
-            if (i % 3 == 0)
-                return "Fizz";
+            if (IsFizz(i))
+            {
+                return Fizz;
+            }
 
-            if (i % 5 == 0)
-                return "Buzz";
+            if (IsBuzz(i))
+                return Buzz;
 
-            return "1";
+            return i.ToString();
+        }
+
+        static bool IsBuzz(int i)
+        {
+            return (i % 5 == 0);
+        }
+
+        static bool IsFizz(int i)
+        {
+            return (i % 3 == 0);
         }
     }
 }
