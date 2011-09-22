@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="AF7574C6-95BC-4E35-8C21-EF0F61CE9469" ModuleId="KataFizzBuzz" />
+  <Module PersistentId="A33F7617-45E3-4A8C-A71F-783032F1CC9C" ModuleId="Tests" />
+</Modules>
