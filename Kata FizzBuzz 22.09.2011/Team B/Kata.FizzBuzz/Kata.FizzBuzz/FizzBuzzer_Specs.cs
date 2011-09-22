@@ -67,4 +67,37 @@ namespace Kata.FizzBuzz
 
 		static string result;
 	}
+
+	public class when_numer_is_10
+	{
+		Because of = () =>
+		             result = FizzBuzzer.GetResult(10);
+
+		It should_returns_Buzz = () =>
+		                         result.ShouldEqual("Buzz");
+
+		static string result;
+	}
+
+	public class when_numer_is_30
+	{
+		Because of = () =>
+					 result = FizzBuzzer.GetResult(30);
+
+		It should_returns_Buzz = () =>
+								 result.ShouldEqual("FizzBuzz");
+
+		static string result;
+	}
+
+	public class when_numer_is_9
+	{
+		Because of = () =>
+					 result = FizzBuzzer.GetResult(9);
+
+		It should_returns_Buzz = () =>
+								 result.ShouldEqual("Fizz");
+
+		static string result;
+	}
 }

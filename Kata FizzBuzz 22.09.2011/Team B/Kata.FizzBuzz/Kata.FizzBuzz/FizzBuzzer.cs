@@ -9,16 +9,16 @@ namespace Kata.FizzBuzz
 	{
 		public static string GetResult(int number)
 		{
-			if (((number % 3) != 0) && ((number % 5) != 0))
-				return number.ToString();
-
-			if (number == 5)
-				return "Buzz";
-
-			if (number == 15)
+			if (number % 5 == 0 && number % 3 == 0)
 				return "FizzBuzz";
 
-			return "Fizz";
+			if (number % 5 == 0)
+				return "Buzz";
+
+			if (number % 3 == 0)
+				return "Fizz";
+
+			return number.ToString();
 		}
 	}
 }
