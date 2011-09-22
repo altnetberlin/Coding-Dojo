@@ -13,15 +13,20 @@ namespace fizzBuzz
         }
     }
 
-    class FizzBuzzer
+    internal class FizzBuzzer
     {
         public List<string> Do()
         {
             List<string> resutList = new List<string>();
 
-            for (int i = 0; i < 100; i++)
+
+
+            for (int i = 1; i <= 100; i++)
             {
-                resutList.Add("");
+                if (i == 3)
+                    resutList.Add("Fizz");
+                else
+                    resutList.Add(i.ToString());
             }
 
             return resutList;
@@ -40,6 +45,9 @@ namespace fizzBuzz
         private Because of = () => { result = sut.Do(); };
 
         // Assert
-        private It should_return_empty_string = () => { result.Count.ShouldEqual(100); };
+        private It should_return_100_elements = () => { result.Count.ShouldEqual(100); };
+        private It should_return_1_on_first_place = () => { result[0].ShouldEqual("1"); };
+        private It should_return_2_on_second_place = () => { result[1].ShouldEqual("2"); };
+        private It should_return_Fizz_on_third_place = () => { result[2].ShouldEqual("Fizz"); };
     }
 }
