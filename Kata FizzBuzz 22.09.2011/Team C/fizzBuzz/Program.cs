@@ -10,6 +10,8 @@ namespace fizzBuzz
     {
         static void Main(string[] args)
         {
+            new FizzBuzzer().Do().ForEach(Console.WriteLine);
+            Console.ReadLine();
         }
     }
 
@@ -23,9 +25,16 @@ namespace fizzBuzz
 
             for (int i = 1; i <= 100; i++)
             {
-                if (i == 3)
+                var dividableByThree = i % 3 == 0;
+                var dividableByFive = i % 5 == 0;
+                
+                if (dividableByThree && dividableByFive)
+                    resutList.Add("FizzBuzz");
+                else if (dividableByThree)
                     resutList.Add("Fizz");
-                else
+                else if (dividableByFive)
+                    resutList.Add("Buzz");
+                else 
                     resutList.Add(i.ToString());
             }
 
@@ -49,5 +58,21 @@ namespace fizzBuzz
         private It should_return_1_on_first_place = () => { result[0].ShouldEqual("1"); };
         private It should_return_2_on_second_place = () => { result[1].ShouldEqual("2"); };
         private It should_return_Fizz_on_third_place = () => { result[2].ShouldEqual("Fizz"); };
+        private It should_return_Fizz_for_numbers_divideable_by_three = () =>
+                                                                            {
+                                                                                result.Where((s, i) => (i+1)%3 == 0 && (i+1)%5 !=0).All(
+                                                                                    s => s == "Fizz").ShouldBeTrue();
+                                                                            };
+        private It should_return_Buzz_for_numbers_divideable_by_five = () =>
+        {
+            result.Where((s, i) => (i + 1) % 5 == 0 && (i+1)%3 !=0).All(
+                s => s == "Buzz").ShouldBeTrue();
+        };
+
+        private It should_return_FizzBuzz_for_numbers_divideable_by_three_and_five = () =>
+        {
+            result.Where((s, i) => (i + 1) % 5 == 0 && (i + 1) % 3 == 0).All(
+                s => s == "FizzBuzz").ShouldBeTrue();
+        };
     }
 }
