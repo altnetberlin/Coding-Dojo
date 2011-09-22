@@ -15,16 +15,23 @@ namespace fizzBuzz
 
     class FizzBuzzer
     {
-        public string Do()
+        public List<string> Do()
         {
-            return "";
+            List<string> resutList = new List<string>();
+
+            for (int i = 0; i < 100; i++)
+            {
+                resutList.Add("");
+            }
+
+            return resutList;
         }
     }
 
     class ProgramSpecs
     {
         private static FizzBuzzer sut;
-        private static string result;
+        private static List<string> result;
 
         // Arrange
         Establish context = () => { sut = new FizzBuzzer(); };
@@ -33,6 +40,6 @@ namespace fizzBuzz
         private Because of = () => { result = sut.Do(); };
 
         // Assert
-        private It should_return_empty_string = () => { result.ShouldEqual(""); };
+        private It should_return_empty_string = () => { result.Count.ShouldEqual(100); };
     }
 }
