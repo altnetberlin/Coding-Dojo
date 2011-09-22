@@ -1,7 +1,43 @@
 <Configuration>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game.cs" caret="59" fromTop="4" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Player.cs" caret="94" fromTop="3" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2456" fromTop="28" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Umpire.cs" caret="1119" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="10" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="20" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="18" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="20" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Player.cs" caret="253" fromTop="13" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="23" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="12" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="23" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="15" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="11" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Player.cs" caret="253" fromTop="16" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Umpire.cs" caret="587" fromTop="16" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="23" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="6" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="11" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="6" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="11" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="15" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="20" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Umpire.cs" caret="953" fromTop="20" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Umpire.cs" caret="1399" fromTop="22" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Umpire.cs" caret="915" fromTop="18" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Player.cs" caret="94" fromTop="10" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="10" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2550" fromTop="23" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Umpire.cs" caret="218" fromTop="4" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Umpire.cs" caret="1382" fromTop="15" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="2409" fromTop="0" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Game_Specs.cs" caret="825" fromTop="19" />
+      <File id="AADF898A-BAF4-42E8-A2E4-EAD380B6BC84/f:Umpire.cs" caret="524" fromTop="14" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +57,56 @@
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="Subject" priority="31" />
+      <Item value="static" priority="63" />
+      <Item value="_player1" priority="378" />
+      <Item value="Establish`0" priority="95" />
+      <Item value="new" priority="159" />
+      <Item value="Player" priority="57" />
+      <Item value="public" priority="93" />
+      <Item value="class" priority="61" />
+      <Item value="it" priority="31" />
+      <Item value="when_player1_wins_a_ball_with_score_0`0" priority="31" />
+      <Item value="with_game`0" priority="63" />
+      <Item value="Because`0" priority="31" />
+      <Item value="Score" priority="31" />
+      <Item value="_player2" priority="159" />
+      <Item value="if" priority="159" />
+      <Item value="Opponent" priority="31" />
+      <Item value="internal" priority="31" />
+      <Item value="_umpire" priority="63" />
+      <Item value="Umpire" priority="28" />
+      <Item value="delegate" priority="31" />
+      <Item value="this" priority="31" />
+      <Item value="Player`0" priority="63" />
+      <Item value="player" priority="319" />
+      <Item value="opponent" priority="191" />
+      <Item value="else" priority="63" />
+      <Item value="private" priority="31" />
+      <Item value="string" priority="63" />
+      <Item value="Console`0" priority="117" />
+      <Item value="Name" priority="31" />
+      <Item value="_scores" priority="31" />
+      <Item value="String`0" priority="31" />
+      <Item value="const" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:KataTennis.Player">
+      <Item value="WinsBall`0" priority="53" />
+      <Item value="Score" priority="323" />
+      <Item value="NotifyWinsBall" priority="54" />
+      <Item value="Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Trace">
+      <Item value="WriteLine`0" priority="26" />
+      <Item value="TraceInformation`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
