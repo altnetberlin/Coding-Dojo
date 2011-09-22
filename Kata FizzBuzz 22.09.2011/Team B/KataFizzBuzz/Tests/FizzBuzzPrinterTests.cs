@@ -83,5 +83,23 @@ namespace Tests
         {
             return _sut.Translate(value);
         }
+
+        [Test]
+        [TestCase(15, Result = "FizzBuzz")]
+        [TestCase(30, Result = "FizzBuzz")]
+        [TestCase(45, Result = "FizzBuzz")]
+        public string When_Translate_is_called_with_multiple_of_15(int value)
+        {
+            return _sut.Translate(value);
+        }
+
+        [Test]
+        [TestCase(7, Result = "7")]
+        [TestCase(14, Result = "14")]
+        [TestCase(23, Result = "23")]
+        public string When_Translate_is_called_with_some_random_numbers(int value)
+        {
+            return _sut.Translate(value);
+        }
     }
 }
