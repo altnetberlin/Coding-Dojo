@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="A81B42A7-2A1C-4667-AA0C-03A03044E3DD" ModuleId="Tennis" />
+  <Module PersistentId="DF38287F-8068-4544-9496-F19D896994FD" ModuleId="Tennis.Tests" />
+</Modules>
