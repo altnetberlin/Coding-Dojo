@@ -1,0 +1,33 @@
+<mockup version="1.0" skin="sketch" measuredW="952" measuredH="565" mockupW="700" mockupH="537">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="252" y="28" w="700" h="537" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="480" y="204" w="244" h="-1" measuredW="79" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="385" y="205" w="-1" h="-1" measuredW="80" measuredH="25" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Spielername</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="480" y="361" w="-1" h="-1" measuredW="59" measuredH="28" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>spiel%26bm%3Bspiel.bmml%26bm%3Bspiel.bmml%26bm%3Bspiel.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22228%2C333%2C287%2C361%22%20href%3D%22spiel.bmml%22%20alt%3D%22spiel%22%20id%3D%224%22/%3E</map>
+        <text>Start</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="669" y="361" w="-1" h="-1" measuredW="55" measuredH="28" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ende</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="513" y="75" w="-1" h="-1" measuredW="177" measuredH="62" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>PACMAN</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,21 @@
+<mockup version="1.0" skin="sketch" measuredW="952" measuredH="565" mockupW="700" mockupH="537">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="252" y="28" w="700" h="537" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="503" y="455" w="-1" h="-1" measuredW="192" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Press%20any%20key%20to%20continue%20...</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="546" y="81" w="-1" h="-1" measuredW="111" measuredH="34" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Game%20Over</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::List" x="267" y="155" w="670" h="220" measuredW="100" measuredH="210" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1%20Player%20One%20%09%09%09%09%09%09%09%09%09%096231235799%0A2%20Player%20sdhhdg%09%09%09%09%09%09%09%09%09%095825578278%0A3%20Player%20sdhhdg%09%09%09%09%09%09%09%09%09%095825578278%0A4%20Player%20sdhhdg%09%09%09%09%09%09%09%09%09%095825578278%0A5%20Player%20sdhhdg%09%09%09%09%09%09%09%09%09%095825578278%0A6%20Player%20sdhhdg%09%09%09%09%09%09%09%09%09%095825578278%0A7%20Player%20sdhhdg%09%09%09%09%09%09%09%09%09%095825578278%0A8%20Player%20sdhhdg%09%09%09%09%09%09%09%09%09%095825578278%0A9%20Player%20sdhhdg%09%09%09%09%09%09%09%09%09%095825578278%0A10%20Player%20sdhhdg%09%09%09%09%09%09%09%09%095825578278</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

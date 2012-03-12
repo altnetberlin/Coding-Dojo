@@ -1,0 +1,22 @@
+<mockup version="1.0" skin="sketch" measuredW="952" measuredH="565" mockupW="700" mockupH="537">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="252" y="28" w="700" h="537" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="503" y="455" w="-1" h="-1" measuredW="192" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Press%20any%20key%20to%20continue%20...</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Canvas" x="438" y="113" w="300" h="70" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="525" y="131" w="-1" h="-1" measuredW="126" measuredH="34" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>7823578235</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Image" x="508" y="225" w="160" h="172" measuredW="300" measuredH="300" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./1242806570383531439Simple_cup_icon.svg.med.png</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

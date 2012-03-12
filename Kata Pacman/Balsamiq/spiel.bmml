@@ -1,0 +1,27 @@
+<mockup version="1.0" skin="sketch" measuredW="952" measuredH="565" mockupW="700" mockupH="537">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="252" y="28" w="700" h="537" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="267" y="43" w="-1" h="-1" measuredW="114" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Punkte%3A%202754785</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="875" y="42" w="-1" h="-1" measuredW="62" measuredH="25" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Runde%3A%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="396" y="42" w="114" h="25" measuredW="87" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Leben%3A%20+%20+%20+</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="267" y="68" w="670" h="482" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Image" x="267" y="68" w="670" h="482" measuredW="1412" measuredH="885" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./screen.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
