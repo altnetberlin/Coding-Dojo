@@ -1,0 +1,32 @@
+﻿<Window x:Class="Pacmans_Spike.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" KeyDown="Window_KeyDown">
+
+
+	<Grid>
+
+		<Canvas>
+			<Rectangle Canvas.Top="{Binding Path=Oben}" Canvas.Left="{Binding Path=Links}" Width="100" Height="100" Fill="Yellow" Name="Figure">
+			</Rectangle>
+			
+			<!--<Rectangle Name="fromToAnimatedRectangle"
+   Height="10" Width="100" HorizontalAlignment="Left"
+   Fill="Black">
+				<Rectangle.Triggers>
+					<EventTrigger RoutedEvent="Rectangle.MouseLeftButtonDown">
+						<BeginStoryboard>
+							<Storyboard>
+								
+								<DoubleAnimation 
+          Storyboard.TargetName="fromToAnimatedRectangle" 
+          Storyboard.TargetProperty="Width"
+          From="50" To="300" Duration="0:0:10" />
+							</Storyboard>
+						</BeginStoryboard>
+					</EventTrigger>
+				</Rectangle.Triggers>
+			</Rectangle>-->
+		</Canvas>
+	</Grid>
+</Window>

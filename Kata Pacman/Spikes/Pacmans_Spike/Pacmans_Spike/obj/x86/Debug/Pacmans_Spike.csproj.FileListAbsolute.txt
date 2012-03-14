@@ -1,0 +1,13 @@
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\bin\Debug\Pacmans_Spike.exe
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\bin\Debug\Pacmans_Spike.pdb
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\MainWindow.baml
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\MainWindow.g.cs
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\App.g.cs
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\Pacmans_Spike_MarkupCompile.cache
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\Pacmans_Spike.g.resources
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\Pacmans_Spike.Properties.Resources.resources
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\Pacmans_Spike.exe
+C:\Development\Projects\altnetberlin\Coding-Dojo\Kata Pacman\Spikes\Pacmans_Spike\Pacmans_Spike\obj\x86\Debug\Pacmans_Spike.pdb
