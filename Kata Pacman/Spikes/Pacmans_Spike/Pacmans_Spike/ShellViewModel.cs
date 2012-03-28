@@ -1,6 +1,11 @@
 ﻿namespace Pacmans_Spike {
-    using System.ComponentModel.Composition;
+    public class ShellViewModel : IShell
+    {
+    	public ShellViewModel()
+    	{
+    		this.Square = new SquareViewModel();
+    	}
 
-    [Export(typeof(IShell))]
-    public class ShellViewModel : IShell {}
+    	public SquareViewModel Square { get; private set; }
+    }
 }

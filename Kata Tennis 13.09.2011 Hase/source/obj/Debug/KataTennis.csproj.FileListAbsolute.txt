@@ -22,3 +22,9 @@ C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\so
 C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\obj\Debug\KataTennis.pdb
 C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\bin\Debug\KataTennis.exe
 C:\Users\mike.bild\Documents\Projects\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\obj\Debug\KataTennis.exe
+C:\Development\altnetberlin\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\obj\Debug\KataTennis.exe
+C:\Development\altnetberlin\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\obj\Debug\KataTennis.pdb
+C:\Development\altnetberlin\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\bin\Debug\KataTennis.exe
+C:\Development\altnetberlin\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\bin\Debug\KataTennis.pdb
+C:\Development\altnetberlin\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\bin\Debug\Machine.Specifications.dll
+C:\Development\altnetberlin\Coding-Dojo\Kata Tennis 13.09.2011 Hase\source\obj\Debug\KataTennis.csprojResolveAssemblyReference.cache

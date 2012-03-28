@@ -1,12 +1,13 @@
 ﻿<Window x:Class="Pacmans_Spike.ShellView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" KeyDown="Window_KeyDown">
 
-	<Grid Background="White">
-		<TextBlock Text="Hello Caliburn Micro!"
-		           VerticalAlignment="Center"
-		           HorizontalAlignment="Center"
-		           FontSize="20" />
+
+	<Grid>
+
+		<Canvas>
+			<ContentControl Name="Square" />
+		</Canvas>
 	</Grid>
-
 </Window>

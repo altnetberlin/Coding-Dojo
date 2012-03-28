@@ -1,4 +1,7 @@
-﻿namespace Pacmans_Spike
+﻿using Microsoft.Practices.Unity;
+using Microsoft.Practices.Unity.Configuration;
+
+namespace Pacmans_Spike
 {
 	using System;
 	using System.Collections.Generic;
@@ -10,47 +13,64 @@
 
 	public class AppBootstrapper : Bootstrapper<IShell>
 	{
-		CompositionContainer container;
+		private IUnityContainer container;
 
 		/// <summary>
-		/// By default, we are configured to use MEF
+		/// Configure to use Unity. 
 		/// </summary>
-		protected override void Configure() {
-		    var catalog = new AggregateCatalog(
-		        AssemblySource.Instance.Select(x => new AssemblyCatalog(x)).OfType<ComposablePartCatalog>()
-		        );
+		protected override void Configure()
+		{
+			this.container = new UnityContainer()
+				.LoadConfiguration();
 
-			container = new CompositionContainer(catalog);
-
-			var batch = new CompositionBatch();
-
-			batch.AddExportedValue<IWindowManager>(new WindowManager());
-			batch.AddExportedValue<IEventAggregator>(new EventAggregator());
-			batch.AddExportedValue(container);
-		    batch.AddExportedValue(catalog);
-
-			container.Compose(batch);
+			ILog logger = new ConsoleLogger();
+			ILog errorLogger = new ErrorLogger();
+			LogManager.GetLog = type => type == typeof(ActionMessage) ? logger : errorLogger;
 		}
 
 		protected override object GetInstance(Type serviceType, string key)
 		{
-			string contract = string.IsNullOrEmpty(key) ? AttributedModelServices.GetContractName(serviceType) : key;
-			var exports = container.GetExportedValues<object>(contract);
-
-			if (exports.Count() > 0)
-				return exports.First();
-
-			throw new Exception(string.Format("Could not locate any instances of contract {0}.", contract));
+			return this.container.Resolve(serviceType, key);
 		}
 
 		protected override IEnumerable<object> GetAllInstances(Type serviceType)
 		{
-			return container.GetExportedValues<object>(AttributedModelServices.GetContractName(serviceType));
+			return this.container.ResolveAll(serviceType);
 		}
 
 		protected override void BuildUp(object instance)
 		{
-			container.SatisfyImportsOnce(instance);
+			this.container.BuildUp(instance);
+		}
+
+		private class ConsoleLogger : ILog
+		{
+			public virtual void Info(string format, params object[] args)
+			{
+				Console.WriteLine("Info: " + format, args);
+			}
+
+			public virtual void Warn(string format, params object[] args)
+			{
+				Console.WriteLine("Warning: " + format, args);
+			}
+
+			public virtual void Error(Exception exception)
+			{
+				Console.WriteLine(string.Format("Error: {0}", exception.ToString()));
+			}
+		}
+
+		private class ErrorLogger : ConsoleLogger
+		{
+			public override void Info(string format, params object[] args) { }
+		}
+
+		private class NullLogger : ILog
+		{
+			public void Info(string format, params object[] args) { }
+			public void Warn(string format, params object[] args) { }
+			public void Error(Exception exception) { }
 		}
 	}
 }
