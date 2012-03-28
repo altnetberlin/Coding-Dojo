@@ -1,9 +1,0 @@
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\bin\Debug\Beispiel1.txt
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\bin\Debug\Beispiel2.txt
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\bin\Debug\MineSweeper.Tests.dll
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\bin\Debug\MineSweeper.Tests.pdb
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\bin\Debug\nunit.framework.dll
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\bin\Debug\nunit.framework.xml
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\obj\Debug\MineSweeper.Tests.dll
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Tests\obj\Debug\MineSweeper.Tests.pdb

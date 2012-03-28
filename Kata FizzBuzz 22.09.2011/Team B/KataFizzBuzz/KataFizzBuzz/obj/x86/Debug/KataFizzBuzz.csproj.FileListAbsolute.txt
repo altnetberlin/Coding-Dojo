@@ -1,5 +1,0 @@
-C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata FizzBuzz 22.09.2011\Team B\KataFizzBuzz\KataFizzBuzz\bin\Debug\KataFizzBuzz.exe
-C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata FizzBuzz 22.09.2011\Team B\KataFizzBuzz\KataFizzBuzz\bin\Debug\KataFizzBuzz.pdb
-C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata FizzBuzz 22.09.2011\Team B\KataFizzBuzz\KataFizzBuzz\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata FizzBuzz 22.09.2011\Team B\KataFizzBuzz\KataFizzBuzz\obj\x86\Debug\KataFizzBuzz.exe
-C:\Projects\ALT.NET Berlin UG\Coding-Dojo\Kata FizzBuzz 22.09.2011\Team B\KataFizzBuzz\KataFizzBuzz\obj\x86\Debug\KataFizzBuzz.pdb

@@ -1,7 +1,0 @@
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Console\bin\Debug\MineSweeper.Console.exe
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Console\bin\Debug\MineSweeper.Console.pdb
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Console\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Console\obj\Debug\MineSweeper.Console.exe
-C:\Users\marco.rasp\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Console\obj\Debug\MineSweeper.Console.pdb
-C:\Users\marco.rasp.TRAVEL\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Console\obj\Debug\MineSweeper.Console.exe
-C:\Users\marco.rasp.TRAVEL\Documents\Visual Studio 2008\Projects\KataMineSweeper\MineSweeper.Console\obj\Debug\MineSweeper.Console.pdb

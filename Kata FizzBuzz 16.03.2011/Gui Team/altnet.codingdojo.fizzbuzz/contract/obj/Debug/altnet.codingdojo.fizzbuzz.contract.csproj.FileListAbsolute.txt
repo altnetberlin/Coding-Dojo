@@ -1,5 +1,0 @@
-C:\Dokumente und Einstellungen\malook\Eigene Dateien\Visual Studio 2010\Projects\altnet.codingdojo.fizzbuzz.contract\bin\Debug\altnet.codingdojo.fizzbuzz.contract.dll
-C:\Dokumente und Einstellungen\malook\Eigene Dateien\Visual Studio 2010\Projects\altnet.codingdojo.fizzbuzz.contract\bin\Debug\altnet.codingdojo.fizzbuzz.contract.pdb
-C:\Dokumente und Einstellungen\malook\Eigene Dateien\Visual Studio 2010\Projects\altnet.codingdojo.fizzbuzz.contract\obj\Debug\ResolveAssemblyReference.cache
-C:\Dokumente und Einstellungen\malook\Eigene Dateien\Visual Studio 2010\Projects\altnet.codingdojo.fizzbuzz.contract\obj\Debug\altnet.codingdojo.fizzbuzz.contract.dll
-C:\Dokumente und Einstellungen\malook\Eigene Dateien\Visual Studio 2010\Projects\altnet.codingdojo.fizzbuzz.contract\obj\Debug\altnet.codingdojo.fizzbuzz.contract.pdb
