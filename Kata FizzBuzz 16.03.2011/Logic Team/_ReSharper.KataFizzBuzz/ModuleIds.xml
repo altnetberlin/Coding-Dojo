@@ -1,6 +1,0 @@
-<Modules>
-  <Module PersistentId="D14E7A6A-620D-41C6-B4D5-7C168B54F580" ModuleId="KataFizzBuzz" />
-  <Module PersistentId="0C39C79E-670D-4E23-B533-798D193420BE" ModuleId="FizzBuzzService.Contracts" />
-  <Module PersistentId="4B81F6F9-E40A-433E-B233-20A7870B4356" ModuleId="FizzBuzzService.Test" />
-  <Module PersistentId="DC87F239-7939-45A4-81BE-E377B2B71673" ModuleId="altnet.codingdojo.fizzbuzz.contract" />
-</Modules>
