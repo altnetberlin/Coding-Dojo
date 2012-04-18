@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Pacman.Views.StartView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:cal="http://www.caliburnproject.org"
+             mc:Ignorable="d" 
+             d:DesignHeight="363" d:DesignWidth="499">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock TextWrapping="Wrap" Text="PACMAN" TextAlignment="Center" FontSize="24" FontWeight="Bold" Margin="20"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20">
+                <Label Content="Spielername:"/>
+                <TextBox Name="PlayerName" Width="300"/>
+            </StackPanel>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal" Margin="20">
+                <Button Content="Spiel starten" cal:Message.Attach="StartGame" Margin="0,0,10,0"/>
+                <Button Content="Beenden" cal:Message.Attach="Quit" Margin="10,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

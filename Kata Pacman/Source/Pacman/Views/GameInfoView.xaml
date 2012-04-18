@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Pacman.Views.GameInfoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="22" d:DesignWidth="552">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
+            <TextBlock Text="Punkte: "/><TextBlock Name="Points" Margin="0,0,20,0"/>
+            <TextBlock Text="Leben: "/><TextBlock Name="Lifes"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Right">
+            <TextBlock Text="Runde: "/><TextBlock Name="Round"/>
+        </StackPanel>
+        <Grid/>
+    </DockPanel>
+</UserControl>
