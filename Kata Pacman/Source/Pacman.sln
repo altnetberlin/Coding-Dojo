@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacman", "Pacman\Pacman.csproj", "{5417B7F5-5C69-4C1C-A019-729DD182C289}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacman.Engine", "Pacman.Engine\Pacman.Engine.csproj", "{2C6137D7-99CC-46EF-B207-F6F44C7D2FE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C6137D7-99CC-46EF-B207-F6F44C7D2FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6137D7-99CC-46EF-B207-F6F44C7D2FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6137D7-99CC-46EF-B207-F6F44C7D2FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6137D7-99CC-46EF-B207-F6F44C7D2FE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5417B7F5-5C69-4C1C-A019-729DD182C289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5417B7F5-5C69-4C1C-A019-729DD182C289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5417B7F5-5C69-4C1C-A019-729DD182C289}.Release|Any CPU.ActiveCfg = Release|Any CPU
