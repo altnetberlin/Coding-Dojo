@@ -10,7 +10,7 @@ namespace Pacman
             ILog logger = new ConsoleLogger();
             ILog errorLogger = new ErrorLogger();
 
-            LogManager.GetLog = type => type == typeof(ActionMessage) ? logger : errorLogger;
+            LogManager.GetLog = type => type == typeof(ViewModelBinder) ? logger : errorLogger;
         }
 
         private class ConsoleLogger : ILog
