@@ -15,7 +15,11 @@
         public string PlayerName
         {
             get { return this.playerInfo.Name; }
-            set { this.playerInfo.Name = value; }
+            set 
+            { 
+                this.playerInfo.Name = value;
+                NotifyOfPropertyChange(() => PlayerName);
+            }
         }
 
         protected IConductor Conductor
