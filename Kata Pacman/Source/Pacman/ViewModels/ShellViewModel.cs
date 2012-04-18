@@ -11,12 +11,12 @@
 
         public void StartGame()
         {
-            ActivateItem(new GameViewModel());
+            ActivateItem(IoC.Get<GameViewModel>());
         }
 
         public void ShowStart()
         {
-            ActivateItem(new StartViewModel());
+            ActivateItem(IoC.Get<StartViewModel>());
         }
 
         public void Quit()
@@ -26,12 +26,12 @@
 
         public void Continue()
         {
-            ActivateItem(new StartViewModel());
+            ActivateItem(IoC.Get<StartViewModel>());
         }
 
         public void ShowHighScore()
         {
-            ActivateItem(new HighScoreViewModel());
+            ActivateItem(IoC.Get<HighScoreViewModel>());
         }
     }
 }
