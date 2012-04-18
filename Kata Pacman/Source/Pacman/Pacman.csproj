@@ -154,6 +154,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pacman.Engine\Pacman.Engine.csproj">
+      <Project>{2c6137d7-99cc-46ef-b207-f6f44c7d2fe8}</Project>
+      <Name>Pacman.Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
