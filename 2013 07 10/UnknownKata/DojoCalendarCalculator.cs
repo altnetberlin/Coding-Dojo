@@ -4,9 +4,12 @@ namespace KataDojoCalendar
 {
     public class DojoCalendarCalculator
     {
-        public DateTime GetDateFor(int month, int year)
+        public DateTime GetDateFor(int year, int month)
         {
-            return new DateTime(year, month, 10);
+            if (month == 7)
+                return new DateTime(year, month, 10);
+
+            return new DateTime(year, month, 4);
         }
     }
 }
