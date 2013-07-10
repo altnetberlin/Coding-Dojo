@@ -6,10 +6,12 @@ namespace KataDojoCalendar
     {
         public DateTime GetDateFor(int year, int month)
         {
-            if (month == 7)
-                return new DateTime(year, month, 10);
-
-            return new DateTime(year, month, 7 + 1 + TargetDayOfWeek(month) - FirstDayOfWeek(year, month));
+            var targetDayOfWeek = TargetDayOfWeek(month);
+            var firstDayOfWeek = FirstDayOfWeek(year, month);
+            var offset = 7;
+            if (firstDayOfWeek == DayOfWeek.Saturday || firstDayOfWeek == DayOfWeek.Sunday)
+                offset = 14;
+            return new DateTime(year, month, offset + 1 + targetDayOfWeek - firstDayOfWeek);
         }
 
         private DayOfWeek TargetDayOfWeek(int month)

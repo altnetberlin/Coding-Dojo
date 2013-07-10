@@ -37,6 +37,7 @@ namespace KataDojoCalendarTests
 
         private It should_be_a_Tuesday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Tuesday);
         private It should_be_in_June = () => actual.Month.ShouldEqual(6);
+        private It should_return_11_06_2013 = () => actual.ShouldEqual(new DateTime(2013, 6, 11));
     }
 
     [Subject(typeof(DojoCalendarCalculator))]
