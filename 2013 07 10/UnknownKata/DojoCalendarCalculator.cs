@@ -8,10 +8,14 @@ namespace KataDojoCalendar
         {
             var targetDayOfWeek = TargetDayOfWeek(month);
             var firstDayOfWeek = FirstDayOfWeek(year, month);
-            var offset = 7;
-            if (firstDayOfWeek == DayOfWeek.Saturday)
-                offset = 14;
-            return new DateTime(year, month, offset + 1 + targetDayOfWeek - firstDayOfWeek);
+            var day = Day(targetDayOfWeek, firstDayOfWeek);
+            return new DateTime(year, month, day);
+        }
+
+        private static int Day(DayOfWeek targetDayOfWeek, DayOfWeek firstDayOfWeek)
+        {
+            var offset = firstDayOfWeek == DayOfWeek.Saturday ? 14 : 7;
+            return offset + 1 + targetDayOfWeek - firstDayOfWeek;
         }
 
         private DayOfWeek TargetDayOfWeek(int month)
