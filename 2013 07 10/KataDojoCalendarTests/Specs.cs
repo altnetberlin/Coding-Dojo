@@ -35,6 +35,7 @@ namespace KataDojoCalendarTests
         private Because of = () => { actual = sut.GetDateFor(2013, 6); };
 
         private It should_be_a_Tuesday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Tuesday);
+        private It should_be_in_June = () => actual.Month.ShouldEqual(6);
 
         private static DojoCalendarCalculator sut;
         private static DateTime actual;
