@@ -45,6 +45,7 @@ namespace KataDojoCalendarTests
         private Because of = () => { actual = sut.GetDateFor(2013, 8); };
 
         private It should_be_a_Thursday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Thursday);
+        private It should_be_in_August = () => actual.Month.ShouldEqual(8);
     }
 
     [Subject(typeof(DojoCalendarCalculator))]
@@ -53,5 +54,23 @@ namespace KataDojoCalendarTests
         private Because of = () => { actual = sut.GetDateFor(2013, 9); };
 
         private It should_be_a_Monday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Monday);
+    }
+
+    [Subject(typeof(DojoCalendarCalculator))]
+    public class When_Asking_For_12_2013 : WithDojoCalendarCalculator
+    {
+        private Because of = () => { actual = sut.GetDateFor(2013, 12); };
+
+        private It should_be_a_Thursday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Thursday);
+        private It should_be_in_December = () => actual.Month.ShouldEqual(12);
+    }
+
+    [Subject(typeof(DojoCalendarCalculator))]
+    public class When_Asking_For_01_2014 : WithDojoCalendarCalculator
+    {
+        private Because of = () => { actual = sut.GetDateFor(2014, 1); };
+
+        private It should_be_a_Monday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Monday);
+        private It should_be_in_January = () => actual.Month.ShouldEqual(1);
     }
 }
