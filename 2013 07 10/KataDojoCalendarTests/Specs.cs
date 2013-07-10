@@ -96,4 +96,12 @@ namespace KataDojoCalendarTests
         private It should_be_in_2014 = () => actual.Year.ShouldEqual(2014);
         private It should_return_06_01_2014 = () => actual.ShouldEqual(new DateTime(2014, 1, 6));
     }
+
+    [Subject(typeof(DojoCalendarCalculator))]
+    public class When_Asking_For_02_2035 : WithDojoCalendarCalculator
+    {
+        private Because of = () => { actual = sut.GetDateFor(2035, 2); };
+
+        private It should_return_06_02_2035 = () => actual.ShouldEqual(new DateTime(2035, 2, 6));
+    }
 }
