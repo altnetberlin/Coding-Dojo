@@ -8,8 +8,8 @@
     <ProjectGuid>{5B07899C-05DC-4617-8FF9-01016198DCDC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnknownKata</RootNamespace>
-    <AssemblyName>UnknownKata</AssemblyName>
+    <RootNamespace>KataDojoCalendar</RootNamespace>
+    <AssemblyName>KataDojoCalendar</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
