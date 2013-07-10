@@ -9,7 +9,7 @@ namespace KataDojoCalendar
             var targetDayOfWeek = TargetDayOfWeek(month);
             var firstDayOfWeek = FirstDayOfWeek(year, month);
             var offset = 7;
-            if (firstDayOfWeek == DayOfWeek.Saturday || firstDayOfWeek == DayOfWeek.Sunday)
+            if (firstDayOfWeek == DayOfWeek.Saturday)
                 offset = 14;
             return new DateTime(year, month, offset + 1 + targetDayOfWeek - firstDayOfWeek);
         }
