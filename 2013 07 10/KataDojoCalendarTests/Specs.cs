@@ -63,6 +63,7 @@ namespace KataDojoCalendarTests
 
         private It should_be_a_Thursday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Thursday);
         private It should_be_in_December = () => actual.Month.ShouldEqual(12);
+        private It should_be_in_2013 = () => actual.Year.ShouldEqual(2013);
     }
 
     [Subject(typeof(DojoCalendarCalculator))]
@@ -72,5 +73,6 @@ namespace KataDojoCalendarTests
 
         private It should_be_a_Monday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Monday);
         private It should_be_in_January = () => actual.Month.ShouldEqual(1);
+        private It should_be_in_2014 = () => actual.Year.ShouldEqual(2014);
     }
 }

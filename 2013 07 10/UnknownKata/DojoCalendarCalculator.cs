@@ -9,7 +9,7 @@ namespace KataDojoCalendar
             if (month == 7)
                 return new DateTime(year, month, 10);
 
-            return new DateTime(1, month, 7 + 1 + TargetDayOfWeek(month) - FirstDayOfWeekOfMonth(month));
+            return new DateTime(year, month, 7 + 1 + TargetDayOfWeek(month) - FirstDayOfWeek(year, month));
         }
 
         private DayOfWeek TargetDayOfWeek(int month)
@@ -17,9 +17,9 @@ namespace KataDojoCalendar
             return (DayOfWeek) (1 + ((month - 1)%4));
         }
 
-        private DayOfWeek FirstDayOfWeekOfMonth(int month)
+        private DayOfWeek FirstDayOfWeek(int year, int month)
         {
-            return new DateTime(1, month, 1).DayOfWeek;
+            return new DateTime(year, month, 1).DayOfWeek;
         }
     }
 }
