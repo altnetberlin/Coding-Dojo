@@ -39,4 +39,17 @@ namespace KataDojoCalendarTests
         private static DojoCalendarCalculator sut;
         private static DateTime actual;
     }
+
+    [Subject(typeof(DojoCalendarCalculator))]
+    public class When_Asking_For_08_2013
+    {
+        Establish context = () => { sut = new DojoCalendarCalculator(); };
+
+        private Because of = () => { actual = sut.GetDateFor(2013, 8); };
+
+        private It should_be_a_Thursday = () => actual.DayOfWeek.ShouldEqual(DayOfWeek.Thursday);
+
+        private static DojoCalendarCalculator sut;
+        private static DateTime actual;
+    }
 }

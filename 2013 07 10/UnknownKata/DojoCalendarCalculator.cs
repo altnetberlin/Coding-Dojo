@@ -9,7 +9,7 @@ namespace KataDojoCalendar
             if (month == 7)
                 return new DateTime(year, month, 10);
 
-            return new DateTime(year, month, 4);
+            return new DateTime(1,1,1+((month-1)%4));
         }
     }
 }
