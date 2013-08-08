@@ -8,14 +8,14 @@ namespace PokerHands
         public enum HandRank
         {
             HighCard,
+            Pair,
             TwoPairs,
             ThreeOfAKind,
-            Pair,
             Straight,
-            StraightFlush,
-            FullHouse,
             Flush,
-            FourOfAKind
+            FullHouse,
+            FourOfAKind,
+            StraightFlush,
         }
 
         private readonly Card[] _cards;

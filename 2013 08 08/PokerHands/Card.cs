@@ -12,10 +12,11 @@ namespace PokerHands
             Seven,
             Eight,
             Nine,
-            King,
-            Ace,
+            Ten,
             Jack,
-            Queen
+            Queen,
+            King,
+            Ace
         }
 
         public enum CardSuit
