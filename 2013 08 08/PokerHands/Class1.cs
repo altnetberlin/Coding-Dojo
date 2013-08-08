@@ -52,9 +52,8 @@ namespace PokerHands
                 new Card(Card.CardValue.Eight, Card.CardSuit.Clubs),
                 new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
             //Act
-            var result = hand.IsPair();
             //Assert
-            Assert.AreEqual(false, result);
+            Assert.AreEqual(false, hand.Rank == Hand.HandRank.Pair);
         }
 
         [Test]
@@ -68,9 +67,8 @@ namespace PokerHands
                 new Card(Card.CardValue.Eight, Card.CardSuit.Clubs),
                 new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
             //Act
-            var result = hand.IsPair();
             //Assert
-            Assert.AreEqual(true, result);
+            Assert.AreEqual(true, hand.Rank == Hand.HandRank.Pair);
         }
 
         [Test]
@@ -84,9 +82,8 @@ namespace PokerHands
                 new Card(Card.CardValue.Eight, Card.CardSuit.Clubs),
                 new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
             //Act
-            var result = hand.IsPair();
             //Assert
-            Assert.AreEqual(false, result);
+            Assert.AreEqual(false, hand.Rank == Hand.HandRank.Pair);
         }
 
         [Test]
@@ -100,9 +97,8 @@ namespace PokerHands
                 new Card(Card.CardValue.Three, Card.CardSuit.Clubs),
                 new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
             //Act
-            var result = hand.IsTwoPairs();
             //Assert
-            Assert.AreEqual(true, result);
+            Assert.AreEqual(true, hand.Rank == Hand.HandRank.TwoPairs);
         }
 
         [Test]
@@ -116,9 +112,8 @@ namespace PokerHands
                 new Card(Card.CardValue.Three, Card.CardSuit.Clubs),
                 new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
             //Act
-            var result = hand.IsTwoPairs();
             //Assert
-            Assert.AreEqual(false, result);
+            Assert.AreEqual(false, hand.Rank == Hand.HandRank.TwoPairs);
         }
 
         [Test]
@@ -156,8 +151,10 @@ namespace PokerHands
     {
         public enum HandRank
         {
-            None,
+            HighCard,
+            TwoPairs,
             ThreeOfAKind,
+            Pair
         }
 
         private readonly Card[] _cards;
@@ -175,24 +172,16 @@ namespace PokerHands
             if ((groups.Count(grouping => grouping.Count() == 3) == 1) &&
                 (groups.Count() == 3))
                 return HandRank.ThreeOfAKind;
-            return HandRank.None;
+            if (groups.Count(grouping => grouping.Count() == 2) == 2)
+                return HandRank.TwoPairs;
+            if (groups.Count() == 4)
+                return HandRank.Pair;
+            return HandRank.HighCard;
         }
 
         public Card.CardValue GetHighCard()
         {
             return _cards.Max(x => x.Value);
-        }
-
-        public bool IsPair()
-        {
-            return _cards.GroupBy(card => card.Value).Count() == 4;
-        }
-
-        public bool IsTwoPairs()
-        {
-            return _cards
-                       .GroupBy(card => card.Value)
-                       .Count(grouping => grouping.Count() == 2) == 2;
         }
     }
     
