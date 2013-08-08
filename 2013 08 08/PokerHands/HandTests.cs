@@ -16,7 +16,7 @@ namespace PokerHands
                 new Card(Card.CardValue.Nine, Card.CardSuit.Clubs),
                 new Card(Card.CardValue.King, Card.CardSuit.Diamonds));
             //Act
-            var result = hand.GetHighCard();
+            var result = hand.HighCard;
             //Assert
             Assert.AreEqual(Card.CardValue.King, result);
         }
@@ -32,7 +32,7 @@ namespace PokerHands
                 new Card(Card.CardValue.Eight, Card.CardSuit.Clubs),
                 new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
             //Act
-            var result = hand.GetHighCard();
+            var result = hand.HighCard;
             //Assert
             Assert.AreEqual(Card.CardValue.Ace, result);
         }

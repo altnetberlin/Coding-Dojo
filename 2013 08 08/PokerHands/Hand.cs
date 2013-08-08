@@ -81,9 +81,9 @@ namespace PokerHands
                    (_cards.Max(x=>x.Value) - _cards.Min(x=>x.Value) == 4);
         }
 
-        public Card.CardValue GetHighCard()
+        public Card.CardValue HighCard
         {
-            return _cards.Max(x => x.Value);
+            get { return _cards.Max(x => x.Value); }
         }
     }
 }
