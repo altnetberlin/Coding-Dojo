@@ -56,6 +56,70 @@ namespace PokerHands
             //Assert
             Assert.AreEqual(false, result);
         }
+
+        [Test]
+        public void IsPairWithTwoTwosShouldReturnTrue()
+        {
+            //Arrange
+            var hand = new Hand(
+                new Card(Card.CardValue.Two, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Two, Card.CardSuit.Hearts),
+                new Card(Card.CardValue.Four, Card.CardSuit.Spades),
+                new Card(Card.CardValue.Eight, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
+            //Act
+            var result = hand.IsPair();
+            //Assert
+            Assert.AreEqual(true, result);
+        }
+
+        [Test]
+        public void IsPairWithThreeTwosShouldReturnFalse()
+        {
+            //Arrange
+            var hand = new Hand(
+                new Card(Card.CardValue.Two, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Two, Card.CardSuit.Hearts),
+                new Card(Card.CardValue.Two, Card.CardSuit.Spades),
+                new Card(Card.CardValue.Eight, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
+            //Act
+            var result = hand.IsPair();
+            //Assert
+            Assert.AreEqual(false, result);
+        }
+
+        [Test]
+        public void IsTwoPairsWithTwoTwosAndTwoThreesShouldReturnTrue()
+        {
+            //Arrange
+            var hand = new Hand(
+                new Card(Card.CardValue.Two, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Two, Card.CardSuit.Hearts),
+                new Card(Card.CardValue.Three, Card.CardSuit.Spades),
+                new Card(Card.CardValue.Three, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
+            //Act
+            var result = hand.IsTwoPairs();
+            //Assert
+            Assert.AreEqual(true, result);
+        }
+
+        [Test]
+        public void IsTwoPairsWithThreeTwosAndNoOtherMatchShouldReturnFalse()
+        {
+            //Arrange
+            var hand = new Hand(
+                new Card(Card.CardValue.Two, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Two, Card.CardSuit.Hearts),
+                new Card(Card.CardValue.Two, Card.CardSuit.Spades),
+                new Card(Card.CardValue.Three, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
+            //Act
+            var result = hand.IsTwoPairs();
+            //Assert
+            Assert.AreEqual(false, result);
+        }
     }
 
     public class Hand
@@ -74,7 +138,14 @@ namespace PokerHands
 
         public bool IsPair()
         {
-            return false;
+            return _cards.GroupBy(card => card.Value).Count() == 4;
+        }
+
+        public bool IsTwoPairs()
+        {
+            return _cards
+                       .GroupBy(card => card.Value)
+                       .Count(grouping => grouping.Count() == 2) == 2;
         }
     }
     
