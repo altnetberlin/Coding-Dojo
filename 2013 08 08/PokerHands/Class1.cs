@@ -120,15 +120,62 @@ namespace PokerHands
             //Assert
             Assert.AreEqual(false, result);
         }
+
+        [Test]
+        public void RankOfThreeTwosAndNoOtherMatchIsThreeOfAKind()
+        {
+            //Arrange
+            var hand = new Hand(
+                new Card(Card.CardValue.Two, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Two, Card.CardSuit.Hearts),
+                new Card(Card.CardValue.Two, Card.CardSuit.Spades),
+                new Card(Card.CardValue.Three, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Ace, Card.CardSuit.Hearts));
+            //Act
+            //Assert
+            Assert.AreEqual(Hand.HandRank.ThreeOfAKind, hand.Rank);
+        }
+
+        [Test]
+        public void RankOfFullhouseIsNotThreeOfAKind()
+        {
+            //Arrange
+            var hand = new Hand(
+                new Card(Card.CardValue.Two, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Two, Card.CardSuit.Hearts),
+                new Card(Card.CardValue.Two, Card.CardSuit.Spades),
+                new Card(Card.CardValue.Three, Card.CardSuit.Clubs),
+                new Card(Card.CardValue.Three, Card.CardSuit.Hearts));
+            //Act
+            //Assert
+            Assert.AreNotEqual(Hand.HandRank.ThreeOfAKind, hand.Rank);
+        }
     }
 
     public class Hand
     {
+        public enum HandRank
+        {
+            None,
+            ThreeOfAKind,
+        }
+
         private readonly Card[] _cards;
+        public HandRank Rank { get; private set; }
 
         public Hand(Card one, Card two, Card three, Card four, Card five)
         {
-            _cards = new[] { one, two, three, four, five };
+            _cards = new[] { one, two, three, four, five };            
+            Rank = GetRank();
+        }
+
+        private HandRank GetRank()
+        {
+            var groups = _cards.GroupBy(card => card.Value);
+            if ((groups.Count(grouping => grouping.Count() == 3) == 1) &&
+                (groups.Count() == 3))
+                return HandRank.ThreeOfAKind;
+            return HandRank.None;
         }
 
         public Card.CardValue GetHighCard()
