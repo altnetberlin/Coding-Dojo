@@ -80,7 +80,6 @@ describe('Play Tennis', function(){
 			game.scoreB();
 			game.scoreB();
 			game.scoreB();
-
 			game.scoreA();
 			game.scoreA();
 			game.scoreA();
@@ -100,7 +99,6 @@ describe('Play Tennis', function(){
 			game.scoreB();
 			game.scoreB();
 			game.scoreB();
-
 			game.scoreA();
 			game.scoreB();
 

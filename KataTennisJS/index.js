@@ -1,7 +1,7 @@
-module.exports.Game = function(){
+module.exports.Game = function(scorecard){
 	var log = [],
 		self = this,
-		scoreCard = { 0: "0", 1: "15", 2:"30", 3:"40", 4:"adv", 5:"win"};
+		scoreCard = scorecard || { 0: "0", 1: "15", 2:"30", 3:"40", 4:"adv", 5:"win"};
 	
 	self.scoreA = function(acc){
 		self.score(acc, "playerA", "playerB");
