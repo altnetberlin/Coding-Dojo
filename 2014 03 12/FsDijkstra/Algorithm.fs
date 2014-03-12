@@ -31,15 +31,10 @@ let findShortestPath (a : Actors) startNode targetNode =
             let rec path (node : StateMachine.Node) = 
                 let index = findIndex node.Name
                 match prev.[index] with
-                | Some n -> n :: path n
+                | Some n -> n.Name :: path n
                 | None -> []
             
-            let z = 
-                path u
-                |> List.rev
-                |> List.map (fun n -> n.Name)
-            
-            match z with
+            match path u with
             | [] -> None
             | x -> Some x
         else 
@@ -53,7 +48,7 @@ let findShortestPath (a : Actors) startNode targetNode =
                     dist.[nIndex] <- (alt, dist.[nIndex] |> snd)
                     prev.[nIndex] <- Some a.Nodes.[uIndex]
             processNode (u :: visitedNodes)
-    processNode []
+    processNode [] |> Option.map List.rev
 
 open FsUnit.Xunit
 open Xunit
