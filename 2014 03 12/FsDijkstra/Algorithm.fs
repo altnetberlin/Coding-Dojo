@@ -59,6 +59,12 @@ open FsUnit.Xunit
 open Xunit
 
 [<Fact>]
+let ``Can find path between Keanu Reeves and Jeniffer Conelly``() = 
+    let a = Actors()
+    findShortestPath a a.KeanuReeves a.JenifferConelly 
+    |> should be Null
+
+[<Fact>]
 let ``Can find path between Keanu Reeves and Kevin Bacon``() = 
     let a = Actors()
     findShortestPath a a.KeanuReeves a.KevinBacon 
