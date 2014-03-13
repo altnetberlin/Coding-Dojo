@@ -62,10 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library1.fs" />
-    <None Include="Script.fsx" />
+    <Compile Include="Algorithm.fs" />
     <None Include="packages.config" />
     <None Include="app.config" />
+    <None Include="Actors.dgml" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
